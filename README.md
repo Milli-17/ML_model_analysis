@@ -161,3 +161,14 @@ Here are the related notebooks and report:
 - 📉 [Linear Regression - Google Colab](https://colab.research.google.com/drive/1ug_NENw9Uq93gZHB9jp6OjElCDsCqwUu?usp=sharing)
 - 🔣 [Support Vector Machine - Google Colab](https://colab.research.google.com/drive/1SrnoelbxRr-v90lVGKynaeyKe57xA_j6?usp=sharing)
 
+------------------------------------------------------------------------------------------------------------------------
+
+## 📂 Dataset & Running the Code
+
+The dataset provided in the main section in the one I’ve used in my code.  
+You’re encouraged to rerun the notebooks and explore the models yourself!  
+However, before executing any code, please **make sure to upload the dataset** (as it is required by the code cells).
+
+You can either:
+- Download the dataset from the **"Files" section** in this repository and upload it to your Colab environment manually, **or**
+- Get the dataset directly from [Kaggle](https://www.kaggle.com/) by searching for “cardiovascular disease dataset” and uploading it before execution.

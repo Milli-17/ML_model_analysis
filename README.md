@@ -142,7 +142,7 @@ SVMs are supervised learning models that separate classes using an optimal hyper
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## ✅ Conclusion
+## 🎯 Conclusion
 
 Each model has its strengths:
 - **ID3 Decision Trees** offer good interpretability with moderate performance.

@@ -3,7 +3,7 @@ Apply and evaluate different ML models on a cardiovascular disease dataset and u
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## 🔷 **1. Decision Tree Classifier (ID3 Algorithm)**
+##  **1. Decision Tree Classifier (ID3 Algorithm)**
 
 ### 📘 Definition
 A Decision Tree is a flowchart-like structure used for classification and regression. The ID3 (Iterative Dichotomiser 3) algorithm uses entropy and information gain to decide which attribute to split at each node.
@@ -45,7 +45,7 @@ A Decision Tree is a flowchart-like structure used for classification and regres
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## 🔷 **2. Linear Regression**
+##  **2. Linear Regression**
 
 ### 📘 Definition
 Linear Regression models the relationship between a dependent variable and one or more independent variables using a straight-line fit.
@@ -83,7 +83,7 @@ Linear Regression models the relationship between a dependent variable and one o
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## 🔷 **3. Support Vector Machine (SVM)**
+##  **3. Support Vector Machine (SVM)**
 
 ### 📘 Definition
 SVMs are supervised learning models that separate classes using an optimal hyperplane with maximum margin.

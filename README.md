@@ -155,7 +155,7 @@ This comparison helps choose the right model based on dataset type, goals, and c
 
 ## 📎 Resources & Links
 
-Here are the related notebooks and report:
+Here are the related notebooks from where you can directly access the code :
 
 - 🌳 [ID3 Decision Tree - Google Colab](https://colab.research.google.com/drive/1ZvQ8nxuMbwScnxqXMixDNK5mvvA8RJud?usp=sharing)
 - 📉 [Linear Regression - Google Colab](https://colab.research.google.com/drive/1ug_NENw9Uq93gZHB9jp6OjElCDsCqwUu?usp=sharing)

@@ -5,41 +5,41 @@ Apply and evaluate different ML models on a cardiovascular disease dataset and u
 
 ##  **1. Decision Tree Classifier (ID3 Algorithm)**
 
-### 📘 Definition
+### -> Definition
 A Decision Tree is a flowchart-like structure used for classification and regression. The ID3 (Iterative Dichotomiser 3) algorithm uses entropy and information gain to decide which attribute to split at each node.
 
-### ⚙️ How It Works
+### -> How It Works
 - Uses entropy to measure impurity.
 - Selects features based on highest information gain.
 - Builds a tree structure recursively.
 
-### 🧩 Requirements
+### -> Requirements
 - Supervised dataset
 - Clean, labeled data
 - Categorical or numerical features
 
-### 🌍 Real-Life Applications
+### -> Real-Life Applications
 - Disease risk prediction
 - Credit risk scoring
 - Customer segmentation
 - Student performance prediction
 
-### 🧾 In This Project
+### -> In This Project
 - Used `DecisionTreeClassifier` with `criterion='entropy'`
 - Trained on 80% data
 - Converted age from days to years
 
-### 📊 Performance
+### -> Performance
 - **Accuracy**: 63.6%
 - **Precision**: 63.78%
 - **Recall**: 63.14%
 
-### ✅ Pros
+### -> Pros
 - Easy to interpret
 - Supports both types of features
 - Visualizable
 
-### ❌ Cons
+### -> Cons
 - Prone to overfitting
 - Sensitive to small changes
 
@@ -47,37 +47,37 @@ A Decision Tree is a flowchart-like structure used for classification and regres
 
 ##  **2. Linear Regression**
 
-### 📘 Definition
+### -> Definition
 Linear Regression models the relationship between a dependent variable and one or more independent variables using a straight-line fit.
 
-### ⚙️ How It Works
+### -> How It Works
 - Minimizes squared differences between predicted and actual values
 - Outputs continuous values
 
-### 🧩 Requirements
+### -> Requirements
 - Linear relationship between features and output
 - Continuous dependent variable
 - Low multicollinearity
 
-### 🌍 Real-Life Applications
+### -> Real-Life Applications
 - Predicting housing prices
 - Sales forecasting
 - Stock price estimation
 - Insurance risk pricing
 
-### 🧾 In This Project
+### -> In This Project
 - Trained to predict `cardio` (binary — not ideal)
 - Used same data and preprocessing
 
-### 📊 Performance
+### -> Performance
 - **R² Score**: 0.116
 - **MSE**: 0.2209
 
-### ✅ Pros
+### -> Pros
 - Simple and fast
 - Interpretable coefficients
 
-### ❌ Cons
+### -> Cons
 - Not suitable for classification
 - Sensitive to outliers
 
@@ -85,38 +85,38 @@ Linear Regression models the relationship between a dependent variable and one o
 
 ##  **3. Support Vector Machine (SVM)**
 
-### 📘 Definition
+### -> Definition
 SVMs are supervised learning models that separate classes using an optimal hyperplane with maximum margin.
 
-### ⚙️ How It Works
+### -> How It Works
 - Finds boundary with largest margin
 - Supports kernels for non-linear data
 - Can output probabilities with proper settings
 
-### 🧩 Requirements
+### -> Requirements
 - Clean, numeric features
 - Well-labeled classification data
 - Often requires scaling
 
-### 🌍 Real-Life Applications
+### -> Real-Life Applications
 - Face detection
 - Spam filtering
 - Disease classification
 - Gene prediction
 
-### 🧾 In This Project
+### -> In This Project
 - Evaluation metrics used: ROC, PR curve, confusion matrix
 - Training part not shown
 
-### 📊 Performance (Demo-based)
+### -> Performance (Demo-based)
 - Not trained in code, but metrics visualized
 
-### ✅ Pros
+### -> Pros
 - Effective for high-dimensional data
 - Good accuracy when tuned
 - Supports non-linear classification
 
-### ❌ Cons
+### -> Cons
 - Slow with large datasets
 - Hard to interpret
 - Needs careful tuning
@@ -124,7 +124,7 @@ SVMs are supervised learning models that separate classes using an optimal hyper
 ------------------------------------------------------------------------------------------------------------------------
 
 
-## 🔄 Model Comparison
+##  Model Comparison
 
 | Aspect                  | Decision Tree (ID3)        | Linear Regression        | SVM                       |
 |-------------------------|----------------------------|---------------------------|---------------------------|
@@ -142,7 +142,7 @@ SVMs are supervised learning models that separate classes using an optimal hyper
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## 🎯 Conclusion
+##  Conclusion
 
 Each model has its strengths:
 - **ID3 Decision Trees** offer good interpretability with moderate performance.
@@ -153,17 +153,17 @@ This comparison helps choose the right model based on dataset type, goals, and c
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## 📎 Resources & Links
+##  Resources & Links
 
 Here are the related notebooks from where you can directly access the code :
 
 - 🌳 [ID3 Decision Tree - Google Colab](https://colab.research.google.com/drive/1ZvQ8nxuMbwScnxqXMixDNK5mvvA8RJud?usp=sharing)
 - 📉 [Linear Regression - Google Colab](https://colab.research.google.com/drive/1ug_NENw9Uq93gZHB9jp6OjElCDsCqwUu?usp=sharing)
-- 🔣 [Support Vector Machine - Google Colab](https://colab.research.google.com/drive/1SrnoelbxRr-v90lVGKynaeyKe57xA_j6?usp=sharing)
+- 📎 [Support Vector Machine - Google Colab](https://colab.research.google.com/drive/1SrnoelbxRr-v90lVGKynaeyKe57xA_j6?usp=sharing)
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## 📂 Dataset & Running the Code
+##  Dataset & Running the Code
 
 The dataset provided in the main section in the one I’ve used in my code.  
 You’re encouraged to rerun the notebooks and explore the models yourself!  

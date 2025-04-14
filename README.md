@@ -159,7 +159,6 @@ Here are the related notebooks from where you can directly access the code :
 
 - 🌳 [ID3 Decision Tree - Google Colab](https://colab.research.google.com/drive/1ZvQ8nxuMbwScnxqXMixDNK5mvvA8RJud?usp=sharing)
 - 📉 [Linear Regression - Google Colab](https://colab.research.google.com/drive/1ug_NENw9Uq93gZHB9jp6OjElCDsCqwUu?usp=sharing)
-- 📎 [Support Vector Machine - Google Colab](https://colab.research.google.com/drive/1SrnoelbxRr-v90lVGKynaeyKe57xA_j6?usp=sharing)
 
 ------------------------------------------------------------------------------------------------------------------------
 
